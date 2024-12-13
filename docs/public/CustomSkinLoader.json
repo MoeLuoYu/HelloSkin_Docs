@@ -1,0 +1,15 @@
+{
+  "enable": true,
+  "loadlist": [
+    {
+      "name": "HelloSkin",
+      "type": "CustomSkinAPI",
+      "root": "https://helloskin.cn/csl/",
+      "userAgent": "CustomSkinLoader/ltsk-manual-edited"
+    },
+    {
+      "name": "Mojang",
+      "type": "MojangAPI"
+    }
+  ]
+}

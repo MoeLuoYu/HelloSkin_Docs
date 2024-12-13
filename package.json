@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@nolebase/vitepress-plugin-enhanced-mark": "^2.2.0",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.2.0",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.2.0",
+    "vitepress": "^1.5.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}
