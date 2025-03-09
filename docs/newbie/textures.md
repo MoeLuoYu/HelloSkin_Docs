@@ -44,7 +44,7 @@ HelloSkin 支持上传以下材质
 > [!NOTE] 注意
 > 材质上传页面显示的预估积分消耗仅供参考，实际积分消耗将按材质文件的实际大小计算。
 
-![open-page](./assets/textures/1-open-page.webp)
+![open-page](./assets/textures/1-open-page.gif)
 
 1. 进入<BSSection><FA :icon="faArchive"/> 皮肤库</BSSection>，点击页面顶部菜单栏中的<BSButton style="background-color: #17a2b8;"><FA :icon="faUpload"/> 上传新皮肤</BSButton>
 
@@ -52,7 +52,7 @@ HelloSkin 支持上传以下材质
 
     选择皮肤文件后，右侧会显示材质的预览。
 
-    ![the-upload-page](./assets/textures/5-the-upload-page.webp)
+    ![the-upload-page](./assets/textures/5-the-upload-page.png)
 
 3. 材质信息设置完成后，点击<BSButton style="background-color: #28a745;">确认上传</BSButton>按钮。
 
@@ -85,7 +85,7 @@ HelloSkin 支持上传以下材质
 > [!IMPORTANT] 提示
 每收藏一件材质至衣柜需要花费 10 积分。在衣柜中删除材质时会返还积分。
 
-![add-to-closet](./assets/textures/2-add-to-closet.webp)
+![add-to-closet](./assets/textures/2-add-to-closet.gif)
 
 1. 进入材质详情页面，点击材质预览下方左侧的<BSButton style="background-color: transparent; color: #007bff; border-color: #007bff;">添加至衣柜</BSButton>
 
@@ -101,7 +101,7 @@ HelloSkin 支持上传以下材质
 
 你可以在用户中心的<BSSection><FA :icon="faStar"/> 我的衣柜</BSSection>页面管理衣柜物品和将材质设置到角色上。
 
-![set-to-player](./assets/textures/3-set-to-player.webp)
+![set-to-player](./assets/textures/3-set-to-player.gif)
 
 1. 点击用户中心左侧菜单栏中的<BSSection><FA :icon="faStar"/> 我的衣柜</BSSection>
 
@@ -123,4 +123,4 @@ HelloSkin 支持上传以下材质
 我们会为QQ邮箱注册的用户自动同步您的QQ头像至您的账户，其他邮箱暂时没有此类功能。 
 :::
 
-![set-avatar](./assets/textures/4-set-avatar.webp)
+![set-avatar](./assets/textures/4-set-avatar.gif)
