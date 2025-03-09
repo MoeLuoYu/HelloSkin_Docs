@@ -6,7 +6,7 @@ head:
       content: HelloSkin minecraft mc skin cape yggdrasil 我的世界 皮肤 披风 皮肤站 外置登录
 ---
 
-# 欢迎浏览 HelloSkin 用户使用文档！ <Badge type="tip" text="新版公测" />
+# 欢迎浏览 HelloSkin 用户使用文档！ <Badge type="tip" text="New" />
 
 请查看左侧的目录，或是使用页面顶部的搜索，来寻找你想要的内容。
 
@@ -21,6 +21,8 @@ head:
 读读这个，你的问题说不定会迎刃而解。
 </NCard>
 
+
+> ### 文档站已支持 IPV6 访问！
 ---
 
 > [!NOTE] 提示
@@ -34,6 +36,7 @@ head:
 > [!TIP] 提示
 > HelloSkin 用户使用文档中的所有内容，除非特别说明，均以 [知识共享 - 署名 - 相同方式共享 4.0 国际许可协议 / CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 授权使用。
 >
+> 本文档原文引用开源项目 [https://github.com/LittleSkinChina/manual-ng](https://github.com/LittleSkinChina/manual-ng)（特别标注原创内容除外）
 > 在引用 HelloSkin 用户使用文档中的内容时，请注意遵守许可协议。
 >
 > ###### 注意：本文档所有内容的最终解释权归 速德优（北京）网络科技有限公司

@@ -2,7 +2,7 @@
 outline: [2, 3]
 ---
 
-# HelloSkin API
+# HelloSkin API <Badge type="tip" text="原创" />
 
 <!--@include: ./for-experts.template.md-->
 
@@ -14,7 +14,7 @@ HelloSkin 使用 Blessing Skin 最新开发版本，支持通过 Blessing Skin A
 
 除此之外，HelloSkin 有一些原版 Blessing Skin API 不具备的定制 API。
 
-通常来说，此页面列出的大多数 API 均需 [鉴权](./oauth2/index.md#使用访问令牌进行鉴权)。一些无需鉴权即可使用的 API 会被特别标出。
+通常来说，此页面列出的大多数 无需鉴权 即可使用，需要鉴权的 API 会被特别标出。
 
 ---
 
@@ -34,7 +34,7 @@ HelloSkin 使用 Blessing Skin 最新开发版本，支持通过 Blessing Skin A
 | `Notification.Read`                | 读取用户的站内通知            |
 
 
-### IP属地 IpLocation <Badge type="info" text="🔓 无需鉴权" /> {#get-announcements}
+### IP属地 IpLocation <Badge type="info" text="🔓 无需鉴权" />
 
 ```http
 GET https://helloskin.cn/api/iploc/ HTTP/1.1
@@ -59,7 +59,6 @@ Accept: application/json | application/javascript | application/array | applicat
 HTTP/1.1 200 OK
 Content-Type: application/json
 
-
 {
     "code": 200,
     "ip": "0.0.0.0",
@@ -74,3 +73,40 @@ Content-Type: application/json
 | `ip_loc`    | IP属地信息                            |
 
 :::
+---
+### 灯笼标语 Denglong <Badge type="info" text="🔓 无需鉴权" /> 
+
+```http
+GET https://helloskin.cn/api/denglong/ HTTP/1.1
+Accept: application/javascript
+```
+
+在网页上展示四个带字的灯笼
+
+
+请求参数
+| 参数名称  |     参数说明    | 请求类型 | 必须 |   类型  |
+| -------- | --------------- | ------- | -----| -------|
+| `text`     | 设置灯笼上的字（4个）   | Params  | false | String |
+
+text参数留空则显示默认文字“新年快乐”
+::: details 响应说明
+
+以下只是对 OpenAPI 文档的额外补充说明。
+
+```http
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+
+code = 200;
+// 创建并添加元素
+function createDengContainer() {
+    const container = document.createElement('div');
+    container.className = 'deng-container';
+    ...
+```
+
+| 值          | 简要解释                              |
+| ----------- | -------------------------------------|
+| `code`      | 响应代码 200为正常                    |
+| `...`        | 如响应代码为200，那么code值下方应该会有相应的js代码 |

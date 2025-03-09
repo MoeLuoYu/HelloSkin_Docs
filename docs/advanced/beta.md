@@ -1,4 +1,4 @@
-# Beta 版
+# Beta 版 <Badge type="tip" text="原创" />
 
 HelloSkin 对于想优先体验新功能的用户准备了 Beta 版，Beta 版不稳定，并且随时可能会无法访问或出现一些奇奇怪怪的BUG，如您没有此需求建议您不要使用 Beta 版站点。
 
