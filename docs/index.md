@@ -36,9 +36,9 @@ head:
 > [!TIP] 提示
 > HelloSkin 用户使用文档中的所有内容，除非特别说明，均以 [知识共享 - 署名 - 相同方式共享 4.0 国际许可协议 / CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 授权使用。
 >
-> [!NOTE]
-> 本文档中的部分内容引用自 [LittleSkin 用户使用手册](https://manual.littlesk.in/)
-> 在引用 HelloSkin 用户使用文档中的内容时，请注意遵守许可协议。
+> 
+> ###### 本文档中的部分内容引用自 [LittleSkin 用户使用手册](https://manual.littlesk.in/)
+> 在引用 HelloSkin 用户使用文档中的相关内容时，请注意遵守许可协议。
 >
 > ###### 注意：本文档原创内容的最终解释权归 速德优（北京）网络科技有限公司
 
